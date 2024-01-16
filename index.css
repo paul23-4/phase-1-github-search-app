@@ -1,13 +1,26 @@
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
 }
 
-#github-container {
-  display: flex;
+body{
+  display: grid;
+  place-items: left;
+  min-height: 100vh;
+  background-color: #636c35;
 }
 
-ul {
-  list-style: none;
+.avatar{
+  width: 200px;
+  aspect-ratio: 1;
+  overflow: 1;
+  border-radius: 50%;
+}
+
+.avatar img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
